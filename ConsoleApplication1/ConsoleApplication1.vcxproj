@@ -152,7 +152,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="networkStudent.cpp" />
     <ClCompile Include="roster.cpp" />
     <ClCompile Include="securityStudent.cpp" />
