@@ -31,6 +31,7 @@ public:
     void setId(std::string);
     void setFirstName(std::string);
     void setLastName(std::string);
+    void setEmailAddress(std::string);
     void setAge(int);
     void setNumberofDaysToCompleteEachCourse(int, int);
     virtual void setDegreeType(Degree);

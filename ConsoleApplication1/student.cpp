@@ -7,7 +7,9 @@ Student::Student(std::string studentId, std::string firstName, std::string lastN
     s_lastName = lastName;
     s_emailAddress = emailAddress;
     s_age = age;
-    s_numberOfDaysToCompleteEachCourse[3] = *numberOfDaysToCompleteEachCourse;
+    s_numberOfDaysToCompleteEachCourse[0] = numberOfDaysToCompleteEachCourse[0];
+    s_numberOfDaysToCompleteEachCourse[1] = numberOfDaysToCompleteEachCourse[1];
+    s_numberOfDaysToCompleteEachCourse[2] = numberOfDaysToCompleteEachCourse[2];
 }
 Student::Student()
 {
@@ -67,6 +69,11 @@ void Student::setFirstName(std::string value)
 void Student::setLastName(std::string value)
 {
     s_lastName = value;
+}
+
+void Student::setEmailAddress(std::string value)
+{
+    s_emailAddress = value;
 }
 
 void Student::setAge(int value)
